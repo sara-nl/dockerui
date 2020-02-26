@@ -12,12 +12,12 @@ voms server.
 in the my.voms.server.lsc as well as the DN of the issuer of that certificate.
  4. Rename my.voms.server.lsc to a name reflecting the name of the voms server 
  of your VO.
-5. Run
+ 5. Run
 
     `docker build -t docker-ui .`
 
  6. Run
 
-   `docker run -it <id> startui`
+    `docker run -it <id> startui`
 
  7. Have fun!!!!
